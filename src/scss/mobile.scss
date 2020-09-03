@@ -1,0 +1,27 @@
+@media (max-width: 975px) {
+  .social > a {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 865px) {
+  .navbar-item > a {
+    margin-right: 30px;
+  }
+  .social > a {
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 865px) {
+  .navbar-item > a {
+    margin-right: 0px;
+  }
+  .social > a {
+    margin-right: 5px;
+  }
+  .navbar-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

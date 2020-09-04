@@ -180,7 +180,7 @@
     color: #333;
   }
   .navbar-link.active {
-    color: #33c3f0;
+    color: #1ea1c9;
   }
   .has-docked-nav .navbar {
     position: fixed;
@@ -268,10 +268,10 @@
   }
   .popover-link:hover {
     color: #fff;
-    background: rgba(51, 196, 240, 0.5);
+    background: #1ea1c9;
   }
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: rgba(51, 196, 240, 0.5);
+    border-bottom-color: #1ea1c9;
   }
 }

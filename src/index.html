@@ -87,27 +87,18 @@
                     <a class="popover-link" href="#projects">All</a>
                   </li>
                   <li class="popover-item">
+                    <a class="popover-link" href="#current">Current</a>
+                  </li>
+                  <li class="popover-item">
                     <a class="popover-link" href="#node"
                       >Node.js / Express.js</a
                     >
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#d3">D3.js</a>
                   </li>
                   <li class="popover-item">
                     <a class="popover-link" href="#react">React.js</a>
                   </li>
                   <li class="popover-item">
                     <a class="popover-link" href="#javascript">Javascript</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#ror">Ruby on Rails</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#ruby">Ruby</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#python">Python</a>
                   </li>
                   <li class="popover-item">
                     <a class="popover-link" href="#sql">SQL</a>
@@ -119,7 +110,26 @@
               </div>
             </li>
             <li class="navbar-item">
-              <a class="navbar-link" href="#resume">Résumé</a>
+              <a class="navbar-link" href="#" data-popover="#codeNavPopover">Résumé</a>
+              <div id="codeNavPopover" class="popover">
+                <ul class="popover-list">
+                  <li class="popover-item">
+                    <a class="popover-link" href="#resume">Download</a>
+                  </li>
+                  <li class="popover-item">
+                    <a class="popover-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="popover-item">
+                    <a class="popover-link" href="#lang">Languages / Frameworks</a>
+                  </li>
+                  <li class="popover-item">
+                    <a class="popover-link" href="#work">Experience</a>
+                  </li>
+                  <li class="popover-item">
+                    <a class="popover-link" href="#education">Education</a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="navbar-item">
               <a class="navbar-link" href="#blog">Blog</a>
@@ -163,12 +173,57 @@
             class="about-img"
             src="images/029d0ff702551bfde2c4881477686830.jpg"
             alt="Benjamin Gambling"
-          />
+          /> 
         </div>
+        <br />
+        <p>
+          I’m Ben and I’m a self-taught web developer currently living in Whistler, Canada with my partner. As you can probably
+          tell by my choice of home, I love the outdoors, when I’m not working you’ll find me skiing, hiking,
+          camping or discovering new places. When I have to be indoors you’ll find me watching sports or playing boards games like Settlers of Catan (look
+          it up and thank me later).
+          </p>
+          <p>         
+          Originally from Sheffield in the north of England, where I lived and studied until the age of 21 before making the move
+          south to London after graduating from university. A couple of years down the line I came to the realization  that i wanted to spend last time commuting and more time doing the things I love. So I
+          decided to make a slightly bigger move to Australia where if you can believe it or not I found a love for skiing. Not
+          wanting winter to end I decided to chase it all the way to Canada and i've never left since.
+        </p>
+        <p>
+        At the beginning of this year I decided to follow my heart and set out to become full time Web Developer. So the past
+        few months it has been like a full time job, spending 40 hours a week following a few different curriculums and building projects that
+        interested me and helped me cement what I had learnt.
+        </p>
+        <p>
+        I’m currently still learning and I doubt my hunger to learn more will stop anytime soon but I’ve reached a point that I feel I’m ready for the
+        next step, to break into the industry and write code that actually helps people!
+        </p>
+        <p>
+        If you are new to web development or interested about my journey, keep an eye out for my blog, where I plan to document my journey from the very
+        start through to my search for jobs, hopefully helping people in the same position that i was in all those months ago.
+        </p>
       </div>
       <div id="projects" class="docs-section">
         <h6 class="docs-header">Projects</h6>
-        <p>Past and present projects</p>
+        <p>This is a collection of all my projects past and present. There is a mix of personal projects, assignments and guided
+        tutorials. All in someway have introduced new methods, frameworks, ideologies or languages. Each one links to the
+        particular Github repo where there is a detailed readme that outlines the project with a link to a live demo where you
+        can see my work in action. </p>
+        <h6 id="current" class="docs-header">> Current Projects</h6>
+        <ul>
+          <li>Typescript - Jump on the bandwagon and learn Typescript, possibly implementing it into the ToDo portion of my
+            WeatherToDo app otherwise building a pub quiz app with React and Typescript</li>
+          <li>CODEVID-19 - A personal blog where i document my story on making the leap to becoming a web developer, hoping to
+            encourage other people who may not have the confidence to do the same as well as helping them make well informed
+            decisions about which resources to use and when. My plan is to create the blog in a way that could be easily
+            replicated and used by anyone without web development knowledge, setting up a API only backend so the blog admin created, updated and delete posts as well as read and respond to comments. </li>
+          <li>GraphQl - Complete a crash course to work towards building a full stack app with React and Node.js</li>
+          <li>WeatherToDo - A weather based planning app built with React Open Weather Data API, the app gives you the ability to plan your life
+            easily around the weather. `hoping to eventually make it available on IOS and Android using React Native, as i think that is where it would be most useful.</li>
+          <li>React Native Phase 10 Scorecard - Using React Native create a scoring app for the popular card game that would be
+            available on both IOS and Android.</li>
+          <li>Ruby/Ruby on Rails - Focus on another popular back end language and framework by following The Odin Project
+            Full-Stack Ruby on Rails curriculum</li>
+        </ul>
         <div class="docs-section">
           <h6 id="node" class="docs-header">> NODE.JS / EXPRESS.JS</h6>
           <div class="docs-content">
@@ -339,9 +394,17 @@
 
       <div id="resume" class="docs-section">
         <h6 class="docs-header">Résumé</h6>
-
+        <p>Here you can find all in the information about my past and present education, experience with the added information
+          of what i can bring to the table. If you would like a hard copy to save or use for any reason you can download a
+          summary below.</p>
+          <div style="text-align: center;">
+              <a href="/files/benjamin-gambling-resume.pdf" download>
+                <img src="/files/benjamin-gambling-resume.pdf" alt="Benjamin Gambling Resume">
+              </a>
+          </div>
+        <br />
         <div class="docs-section">
-          <h6 class="docs-header">> Skills</h6>
+          <h6 id="skills" class="docs-header">> Skills</h6>
           <ul>
             <li>Problem solving & critical thinking</li>
             <li>Object-orientated design</li>
@@ -351,7 +414,7 @@
             <li>Adaptable to change and new ways of thinking</li>
           </ul>
           <br />
-          <h6 class="docs-header">> Languages / Frameworks</h6>
+          <h6 id="lang" class="docs-header">> Languages / Frameworks</h6>
           <ul>
             <lh class="list-head">Front End</lh>
             <li>JavaScript (ES6+)</li>
@@ -367,6 +430,12 @@
             <lh class="list-head">Back End</lh>
             <li>Node.js</li>
             <li>Express.js</li>
+          </ul>
+
+          <ul>
+            <lh class="list-head">Template Engines</lh>
+            <li>EJS</li>
+            <li>Mustache</li>
           </ul>
 
           <ul>
@@ -407,16 +476,59 @@
             <li>Visual Basics</li>
           </ul>
           <br />
-          <h6 class="docs-header">> Education</h6>
+
+          <h6 id="work" class="docs-header">> Experience</h6>
           <div class="resume-content">
-            <p></p>
+            <div>
+              <strong class="docs-header">2016 - 2020 </strong><br />
+              <strong class="docs-header">Vail Resorts - Product Sales & Services Supervisor</strong><br />
+              <p>
+              Working in number of roles within the  product sales and services team in both Falls Creek, Australia and Whistler, Canada, I have
+              overseen large teams of seasonal employees who are required to sell products and provide exceptional guest service. I
+              have played a huge part in the testing and integration of a new point of sales system, which was produced in house and
+              is continuously being developed. As the largest resort it is vital that both the guests and employees have a smooth user
+              experience with our online and in resort sales systems.
+              </p>
+              <p>
+              Due to a large turnover of staff year every year it is critical that we provide staff with the tools to succeed. To do
+              this we provided in-depth training, constant development and online resources through our intranet as well as a constant
+              front line presence to assist however it was needed. The role was always changing and required me to adapt my whole schedule on a
+              moments notice, being unpredictable the weather and lift mechanics could cause chaos, this required quick thinking,
+              problem solving under pressure and a level head to help savior the guests experience.
+            </p>        
+              <br />
+              <strong class="docs-header">2014 - 2016 </strong><br />
+              <strong class="docs-header">TPS Consult - Blast Engineer</strong><br />
+              <p>
+              Recruited straight out of university for my masters work involving the dynamic effects on buildings in disastrous
+              circumstances. The job consisted of work winning, project/account management, researching potential clients and working
+              within large teams of multi-disciplinary and multi-national personnel. The engineering side consisted of a range of
+              different roles such as: -
+              </p>
+              <ul>
+                <li>Blast Engineering</li>
+                <li>Research & Development</li>
+                <li>Counter-Terrorism Measures</li>
+                <li>Explosive Safety</li>
+                <li>Hostile Vehicle Mitigation</li>
+                <li>Personal & Private Security</li>
+                <li>Structural Design</li>
+              </ul>
+              <p>
+              During my time I was also heavily involved with the Structural Engineering division due to my experience in the field. I
+              worked with them on a number of large-scale structural projects. After working them I found a few areas to increase
+              productivity, I noticed a lot of time was spent manually inputting numbers from a structural modeling program to design
+              pad foundations. I created a sophisticated spreadsheet that would take the information straight from the sheet itself
+              and calculate the results, saving 2-3 hours each time.
+              </p>
+            </div>
           </div>
 
-          <h6 class="docs-header">> Education</h6>
+          <h6 id="education" class="docs-header">> Education</h6>
           <div class="resume-content">
             <p>
               <strong class="docs-header">2020 - </strong><br />
-              <strong class="docs-header">The Odin Project Bootcamp </strong><br />
+              <strong class="docs-header">The Odin Project Bootcamp</strong><br />
               The Odin Project is an open source project that has the same curriculum and structure as a bootcamp however it is
               designed for people that can’t meet the strict schedule that most bootcamps have and using some of the best online
               resources from a number of different sites. The curriculum focuses on full-stack JavaScript and Ruby on Rails. Its first
@@ -429,6 +541,7 @@
               Free Code Camp is an online education platform that focuses on full-stack JavaScript. It has a built in console where
               you type code straight into the browser and either pass or fail. It’s a great resource that bypasses the set up you need
               on a workstation. Its offers a number of certificates in the full-stack curriculum such as: - <br />
+              <br />
               <ul>
                 <li>Responsive Web Design</li>
                 <li>JavaScript Algorithms and Data Structures </li>
@@ -441,7 +554,8 @@
               <strong class="docs-header">Harvard CS50x</strong><br />
               On the EdX platform Harvard offer their computer science courses for free; they have a wide range of different content
               for different interests and career paths. The content they provide is exceptional for truly understanding the theory
-              behind how things work. The course path that I am currently following is : -
+              behind how things work. The course path that I am currently following is : - <br />
+              <br />
               <ul>
                 <li>Introduction to Computer Science</li>
                 <li>Web Programing with Python and JavaScript</li>
@@ -466,7 +580,10 @@
               maintainable as the industry advances. This was well receive and
               funding was approved for the project the following year of my graduation. I received a final grade of
               2:1 with honors.
-
+              <ul>
+                <li>Civil Engineering Society President 2011-2013</li>
+                <li>Lacrosse Club Captain 2012-2014</li>
+              </ul>       
             </p>
           </div>
         </div>
@@ -490,13 +607,15 @@
           I decided to (attempt) teach myself web development, something I have
           wanted to do for a long time but didn’t know exactly where to start or
           what exactly to learn. I had the luxury of time, I have spent roughly
-          around 40 hours a week, doing this, I felt this was realistic to help
-          maintain a work/life balance, I went a couple of road trips, spent
+          around 40 hours a week doing this for the past 6 months. I felt this was realistic to help
+          maintain a work/life balance, i didn't lock myself in a room and only come out to eat, i did normal stuff, maybe not as
+          much as i would have liked but i wanted to be somewhat strict. I went a couple of road trips, spent
           time with my partner, the same stuff as I did when I was working. I
-          didn’t want it to consume me but I also didn’t want to fail.
+          didn’t want it to consume me but I also didn’t want to fail so the balance was a challenge and it took awhile to find
+          the middle ground.
         </p>
         <p>
-          You may not have the luxury of time, it is not always realistic to
+          Others may not have the luxury of time, it is not always realistic to
           just quit your job and spend 60 hours a week learning something new.
           However I hope to help provide a path, share my experiences and help
           ease someone who is in the position I was once in make that change.
@@ -519,7 +638,7 @@
           lending a helping hand. When I’ve needed it the most, help has found
           me in some way shape or form, it’s a kind community of people who have
           experienced similar things and I hope that I can give back to it and
-          encourage others to be part on it.
+          encourage others to be part of it.
         </p>
         <p class="docs-header" style="text-align: center">More Coming Soon!</p>
       </div>

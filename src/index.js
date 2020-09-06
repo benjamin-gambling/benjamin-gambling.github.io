@@ -10,6 +10,6 @@ const requireAll = (file) => {
 
 requireAll(require.context("./", true, /\.s?css$/));
 
-import profilePic from "./images/profile-pic.jpg";
-import logo from "./images/logo.png";
-import logotxt from "./images/logo-text.png";
+window.onload = function () {
+  document.getElementById("hideAll").style.display = "none";
+};

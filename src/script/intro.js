@@ -5,15 +5,17 @@ const background = arrayAll(
   require.context("../images/background/", true, /\.jpe?g$/)
 );
 
+require.context("../images/background/", false, /\.(jpe?g | png)$/);
+
 const intro = document.getElementById("intro");
 
-const imageSelect = (num) => {
-  let random = Math.floor(Math.random() * background.length);
-  if (num === random) return imageSelect(random);
-  intro.style.backgroundImage = `url("${background[random].default}")`;
+let pictureNum = 0;
+const imageSelect = () => {
+  intro.style.backgroundImage = `url("${background[pictureNum].default}")`;
+  pictureNum === background.length - 1 ? (pictureNum = 0) : (pictureNum += 1);
   setTimeout(() => {
-    imageSelect(random);
+    imageSelect(pictureNum);
   }, 30000);
 };
 
-imageSelect(0);
+imageSelect();

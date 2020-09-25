@@ -1,6 +1,7 @@
 /// IMPORT SCRIPTS ///
 import "./script/intro.js";
 import "./script/navbar.js";
+import "./script/projects.js";
 
 /// REQUIRE STYLES ///
 // STYLES

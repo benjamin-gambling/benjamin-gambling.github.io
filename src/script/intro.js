@@ -2,7 +2,7 @@
 const arrayAll = (imgs) => imgs.keys().map(imgs);
 
 const background = arrayAll(
-  require.context("../images/background/", true, /\.jpg$/)
+  require.context("../images/background/", true, /\.jpe?g$/)
 );
 
 const intro = document.getElementById("intro");

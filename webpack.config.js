@@ -34,6 +34,25 @@ module.exports = {
         ],
       },
       {
+        test: /\.jpeg/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: "images",
+            },
+          },
+          {
+            loader: "image-webpack-loader",
+            options: {
+              mozjpeg: {
+                quality: 50,
+              },
+            },
+          },
+        ],
+      },
+      {
         test: /\.s[ac]ss$/i,
         use: ["style-loader", "css-loader", "sass-loader"],
       },

@@ -42,6 +42,6 @@ contact.innerHTML = `<h6 class="docs-header">Contact</h6>
             class="navbar-link"
             target="_blank"
             href="https://www.instagram.com/ben_gambling/?hl=en"
-            ><i class="fa fa-instagram"></i
+            ><i class="fab fa-instagram"></i
           ></a>
         </div>`;

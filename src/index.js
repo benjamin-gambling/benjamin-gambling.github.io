@@ -2,6 +2,10 @@
 import "./script/intro.js";
 import "./script/navbar.js";
 import "./script/projects.js";
+import "./script/about.js";
+import "./script/resume.js";
+import "./script/blog.js";
+import "./script/contact.js";
 
 /// REQUIRE STYLES ///
 // STYLES

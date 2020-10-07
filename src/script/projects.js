@@ -26,7 +26,9 @@ can see my work in action. </p>
 const idList = ["node", "react", "typescript", "javascript", "sql", "html"];
 const lang = {
   "Node.JS / Express.JS": [
+    "apollo-travel",
     "hackernews",
+    "github-lookup",
     "graphql-api",
     "inventory-application",
     "local-library",
@@ -52,6 +54,7 @@ const lang = {
     "rock-paper-scissors",
     "image-carousel",
     "responsive-portfolio-navbar",
+    "benjamin-gambling.github.io",
   ],
   SQL: ["sql-zoo"],
   "HTML5 / CSS3": [
